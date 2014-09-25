@@ -24,12 +24,12 @@ public class User implements IUser {
 	
 	@Override
 	public String getLanguage() {
-		return language;
+		return name;
 	}
 
 	@Override
 	public String getName() {
-		return name;
+		return language;
 	}
 
 	@Override
