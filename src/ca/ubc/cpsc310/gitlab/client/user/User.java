@@ -34,9 +34,7 @@ public class User implements IUser {
 
 	@Override
 	public List<ProductItem> getWishList() {
-		if (name == "K")
 			return wishList;
-		return shoppingCart;
 	}
 
 	@Override
